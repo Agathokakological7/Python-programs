@@ -1,7 +1,6 @@
 import numpy as np
-def push(arr,top,size):
-    s=size
-    if(top!=s):
+def push(arr,top,size):    
+    if(top!=size):
         top=top+1
         num=int(input("Enter number to append : "))
         arr[top]=num
